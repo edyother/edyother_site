@@ -1,0 +1,7 @@
+[[redirects]]
+  from = "/omosmusic.com"
+  to = "/https://omosmusic.netlify.com/"
+  status = 301
+  force = false
+  query = {path = ":path"}
+  conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
