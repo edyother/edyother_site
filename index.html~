@@ -49,20 +49,13 @@
         <!-- END Header -->
         <div class="row">
           <div class="twelve columns">
-            <h1 class="heading_supersize"><span class="heading_center_bg">ÓMÓS</span></h1>
+            <h1 class="heading_supersize"><span class="heading_center_bg">Ed Yother</span></h1>
             <p class="welcome_text">Mostly Irish Traditional Music from
-              Central-ish Indiana</p>
+              West Lafayette Indiana</p>
           </div>
           <div id="featured"> <img src="images/2019-12-12-1400_IMG_9003.png" alt="">
           </div>
-          <p class="post_meta">Ómós [OO-mahs] is Indiana’s newest Celtic band,
-            comprised of veteran musicians with long individual resumes. The
-            group’s name means “homage” or “tribute” in the Irish language, and
-            the members have a deep respect for the traditions of Celtic music,
-            including jigs and reels, ballads and humorous songs. At the same
-            time, though, the band seeks to add its own material and
-            contemporary arrangements of older songs and tunes in order to offer
-            a new musical direction while still staying true to tradition.</p>
+          <p class="post_meta">I am a musician living in West Lafayette Indiana. I focus mostly on Irish traditional music. I sing and play flute, Irish tenor banjo, guitar, mandolin, and octave mandolin</p>
         </div>
         <div>
           <p class="blog_post" style="width: 405px; margin-left: -18px;">Fred
@@ -95,14 +88,14 @@
 </script> 
   <div class="row">
           <div class="twelve columns">
-            <p class="welcome_text">Where you can find us</p>
+            <p class="welcome_text">Where you can find me</p>
           </div>
           <div id="container">
 			<div class="box_fluid col_fluid"> <a href="#"><img src="./images/IMG_2928b.png"
                   alt=""></a>
               <div class="box_fluid_inner">
-                <h5><strong>To be Determined<br>Contact Us @</strong></h5>
-                <p>omosband@gmail.com<p/>
+                <h5><strong>To be Determined<br>Contact Me @</strong></h5>
+                <p>ed@edyother.com<p/>
               </div>
             </div>
           </div>
@@ -112,8 +105,8 @@
 	<div id=container">
 	<div class="footer_col_fluid">
 	  <h3>Follow Us</h3>
-	  <a title="twitter" href="https://twitter.com/omosmusic"> <img src="./icons/twitter.svg" alt="twitter" style="width:2em;height:2em"</a>
-	  <a title="instagram" href="https://instagram.com/omosmusic"> <img src="./icons/insta.svg" alt="instagram" style="width:2em;height:2em"</a>
+	  <a title="twitter" href="https://twitter.com/edyother"> <img src="./icons/twitter.svg" alt="twitter" style="width:2em;height:2em"</a>
+	  <a title="instagram" href="https://instagram.com/edyother"> <img src="./icons/insta.svg" alt="instagram" style="width:2em;height:2em"</a>
 	  <a title="youtube" href="https://www.youtube.com/channel/UC-q0M0qkprzRWiigqgDscUA"> <img src="./icons/youtube.svg" alt="youtube" style="width:2em;height:2em"</a>
 	  </div>
 	  </div>
