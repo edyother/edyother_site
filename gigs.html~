@@ -42,6 +42,7 @@ gtag('config', 'UA-155633765-1');
               <ul id="menu-header" class="nav-bar horizontal">
                 <li><a href="index.html">Home</a></li>
                 <li class="active"><a href="gigs.html">Gigs</a></li>
+		<li><a href="tunebook.html">Tunebook</a></li>
               </ul>
               <script>$('ul#menu-header').nav-bar();</script> </div>
           </div>
@@ -52,19 +53,9 @@ gtag('config', 'UA-155633765-1');
             <h1 class="heading_supersize"><span class="heading_center_bg">Ed Yother</span></h1>
             <p class="welcome_text">Where you can find me</p>
           </div>
-          <!--<div id="container">
-            <div class="box_fluid col_fluid"> <a href="#"><img src="images/NIBW.jpg"
-
-                  alt=""></a>
-              <div class="box_fluid_inner">
-                <h5><strong>Nine Irish Brothers<br>West Lafayette</strong></h5>
-                <p>Saturday, Jan 18th<br>
-                  9pm to midnight<p/>
-                  <p>119 Howard Ave,<br>
-                  West Lafayette, IN 47906</p>
-              </div>
-	    </div> -->
-			<div class="box_fluid col_fluid"> <a href="#"><img src="./images/IMG_2928b.png"
+		<div id="featured"><img src="images/Branigans.jpg" alt="image" class="center">
+		</div>
+		<div class="box_fluid col_fluid"> <a href="#"><img src="images/MeAtMadLove.jpg"
                   alt=""></a>
               <div class="box_fluid_inner">
                 <h5><strong>To be Determined<br>Contact Me @</strong></h5>
@@ -92,8 +83,8 @@ gtag('config', 'UA-155633765-1');
 	  <a title="youtube" href="https://www.youtube.com/edyother"> <img src="./icons/youtube.svg" alt="youtube" style="width:2em;height:2em"</a>
 	  </div>
 	 <div id=container">
-	<div class="box_fluid col_fluid"><h5><strong>Contact Me</strong></h5>
-	<p><a href="mailto:ed@edyother.com">ed@edyother.com</p>
+	<div class="box_fluid col_fluid"><h3>Contact Me</h3>
+		<p><a href="mailto:ed@edyother.com"><h4>ed@edyother.com</h4></p>
 		</div>
 	</div>
 	</div>
