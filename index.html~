@@ -118,7 +118,6 @@
 	<div id=container">
 	<div class="footer_col_fluid">
 	  <h3>Follow Me</h3>
-	<a title="bandcamp" href="https://edyother.bandcamp.com"> <img src="./icons/bandcamp.svg" alt="bandcamp" style="width:2em;height:2em"</a>
 	  <a rel="me" title="mastodon" href="https://tech.lgbt/@edyother"> <img src="./icons/mastodon.svg" alt="mastodon" style="width:2em;height:2em"</a>
 	 <a title="twitter" href="https://twitter.com/edyother"> <img src="./icons/twitter.svg" alt="twitter" style="width:2em;height:2em"</a>
 	  <a title="instagram" href="https://instagram.com/edyother"> <img src="./icons/insta.svg" alt="instagram" style="width:2em;height:2em"</a>
