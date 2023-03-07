@@ -1,8 +1,4 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
-<!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!-->
 <html class="no-js" lang="en">
   <!--<![endif]-->
   <head>
@@ -15,7 +11,7 @@
   gtag('js', new Date());
 
   gtag('config', 'UA-155633765-1');
-</script> <title>Home</title>
+</script> <title>Ed Yother</title>
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="stylesheets/foundation.min.css">
     <link rel="stylesheet" href="stylesheets/main.css">
@@ -30,43 +26,61 @@
 <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   </head>
   <body>
-    <div class="row"> <br>
-    </div>
-    <div class="row page_wrap" style="margin-top:-2px">
+    <header class="row page_wrap" style="margin-top: 0.75rem">
       <!-- page wrap -->
       <div class="twelve columns">
         <!-- page wrap -->
         <div class="row">
           <div class="twelve columns header_nav" style="margin-bottom:0; box-shadow: none">
-            <div class="twelve columns">
+            <nav class="twelve columns">
               <ul id="menu-header" class="nav-bar horizontal">
-                <li class="active"><a href="index.html">Home</a></li>
+                <li class="active" aria-current="page">
+                    <a href="index.html">Home</a></li>
                  <li><a href="gigs.html">Gigs</a></li> 
 		          <li><a href="tunebook.html">Tunebook</a></li>
                    <li><a href="videos.html">Videos</a></li>
 				    <li><a href="https://edyother.github.io/AlbumSite">Album Project</a></li>
                 </ul>
-              <script>$('ul#menu-header').nav-bar();</script> </div>
+              <script>
+                  $('ul#menu-header').nav-bar();
+          </script> 
+            </nav>
           </div>
         </div>
-        <!-- END Header -->
-        <div class="row">
+        </div>
+        </header>
+
+        <main>
+        <div class="row page_wrap">
           <div class="twelve columns">
-            <h1 class="heading_supersize"><span class="heading_center_bg">Ed Yother</span></h1>
-            <p class="welcome_text">Mostly Irish Traditional Music from
-              West Lafayette Indiana</p>
+              <div class="row">
+                  <div class="twelve columns">
+            <h1 class="heading_supersize">
+                <span class="heading_center_bg">Ed Yother</span>
+            </h1>
+            <p class="welcome_text">
+            Mostly Irish Traditional Music from West Lafayette Indiana
+            </p>
           </div>
-          <div id="featured"><img src="images/MollysBanner.png" alt="Banner image" class="center">
+          <div id="featured">
+              <img src="images/MollysBanner.png" alt="Me in a striped shirt seated on a bench at a pub between two other musicians holding my banjo, and looking generally badass" 
+            class="center" />
           </div>
-	  <p><h3>I am a musician living in West Lafayette Indiana. I focus mostly on Irish traditional music. I sing and play flute, Irish tenor banjo, guitar, mandolin, and octave mandolin</p>
+	  <p>
+         I am a musician living in West Lafayette Indiana. I focus mostly on Irish traditional music. I sing and play flute, Irish tenor banjo, guitar, mandolin, and octave mandolin
+      </p>
         </div>
         <div>
-          <iframe style="border: 0; width: 380px; height: 651px;" src="https://bandcamp.com/EmbeddedPlayer/album=4214766066/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="https://edyother.bandcamp.com/album/where-i-told-her-i-loved-her-and-sprained-her-ankle-2">Where I Told Her I Loved Her and Sprained Her Ankle by Ed Yother</a></iframe>
+          <iframe title="Where I Told Her I Loved Her and Sprained Her Ankle on Bandcamp"
+              style="border: 0; width: 380px; height: 651px;" src="https://bandcamp.com/EmbeddedPlayer/album=4214766066/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="https://edyother.bandcamp.com/album/where-i-told-her-i-loved-her-and-sprained-her-ankle-2">Where I Told Her I Loved Her and Sprained Her Ankle by Ed Yother</a></iframe>
         </div>
       </div>
     </div>
-    <div class="row"> </div>
-    <script>$('ul#menu3').nav-bar();</script>
+
+    <script>
+        $('ul#menu3').nav-bar();
+    </script>
+
     <!-- end page wrap) -->
     <!-- Included JS Files (Compressed) -->
     <script src="javascripts/foundation.min.js"></script>
@@ -74,46 +88,57 @@
     <script src="javascripts/app.js"></script>
     <script src="audiojs/audio.js"></script>
     <script>
-  audiojs.events.ready(function() {
-    var as = audiojs.createAll();
-  });
+      audiojs.events.ready(function() {
+        var as = audiojs.createAll();
+      });
 </script> 
+
+
   <div class="row">
-          <div class="twelve columns">
-            <p class="welcome_text">Where you can find me</p>
+    <div class="twelve columns">
+            <h2 class="welcome_text">Where you can find me</h2>
           </div>
           <div id="container">
-			<div class="col_fluid box_fluid"> <a href="#"><img src="images/NIBW.jpg"
-                  alt=""></a>
+			<div class="col_fluid box_fluid"> 
+                <img src="images/NIBW.jpg"
+                  alt="Exterior photo of Nine Irish Brothers in West Lafayette" />
               <div class="box_fluid_inner">
-                <h5><strong>Nine Irish Brothers<br>West Lafayette</strong></h5>
-		<p>Every Wednesday<br>
-		7pm to 10pm<br>
-		119 Howard Ave,<br>
-		West Lafayette, IN 47908<p/>
+                  <p>
+        <strong>Nine Irish Brothers<br />West Lafayette</strong><br />
+		Every Wednesday<br />
+		7pm to 10pm<br />
+		119 Howard Ave,<br />
+		West Lafayette, IN 47908
+        <p/>
               </div>
             </div>
           </div>
         </div>
-<div class="footer">
-<div class="row">
-	<div id=container">
+        </main>
+
+
+        <footer class="footer">
+    <div class="row">
+	<div id="container">
 	<div class="footer_col_fluid">
-	  <h3>Follow Me</h3>
-	<a title="bandcamp" href="https://edyother.bandcamp.com"> <img src="./icons/bandcamp.svg" alt="bandcamp" style="width:2em;height:2em"</a>
-	  <a rel="me" title="mastodon" href="https://tech.lgbt/@edyother"> <img src="./icons/mastodon.svg" alt="mastodon" style="width:2em;height:2em"</a>
-	 <a title="twitter" href="https://twitter.com/edyother"> <img src="./icons/twitter.svg" alt="twitter" style="width:2em;height:2em"</a>
-	  <a title="instagram" href="https://instagram.com/edyother"> <img src="./icons/insta.svg" alt="instagram" style="width:2em;height:2em"</a>
-	  <a title="youtube" href="https://www.youtube.com/edyother"> <img src="./icons/youtube.svg" alt="youtube" style="width:2em;height:2em"</a>
+	  <h2>Follow Me</h2>
+
+      <ul class="socail-links" roll="list">
+          <li>
+	<a href="https://edyother.bandcamp.com"> <img src="./icons/bandcamp.svg" alt="bandcamp" style="width:2em;height:2em"</a>
+	  <a rel="me" href="https://tech.lgbt/@edyother"> <img src="./icons/mastodon.svg" alt="mastodon" style="width:2em;height:2em"</a>
+	 <a href="https://twitter.com/edyother"> <img src="./icons/twitter.svg" alt="twitter" style="width:2em;height:2em"</a>
+	  <a href="https://instagram.com/edyother"> <img src="./icons/insta.svg" alt="instagram" style="width:2em;height:2em"</a>
+	  <a href="https://www.youtube.com/edyother"> <img src="./icons/youtube.svg" alt="youtube" style="width:2em;height:2em"</a>
 	  </div>
 	  </div>
-	 <div id=container">
-	<div class="footer_col_fluid"><h3>Contact Me</h3>
-	<h4><a href="mailto:ed@edyother.com"<h4>ed@edyother.com</h4>
+	 <div id="container">
+	<div class="footer_col_fluid"><h2>Contact Me</h2>
+        <a href="mailto:ed@edyother.com">ed@edyother.com</a>
 	</div>
 	</div>
 	</div>
-	</div>
-	</div>
+	</footer>
   </body>
+
 </html>
