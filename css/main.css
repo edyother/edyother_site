@@ -6,15 +6,15 @@ img {
 }
 
 .bar {
-    display: flex;
     align-content:flex-start;
     justify-content:center;
+    flex-wrap:wrap;
 }
 
 .bar-item {
-    padding:8px 16px;
+    padding:8px;
     font-family: 'Open Sans', Sans-Serif;
-    font-size: 20px;
+    font-size: 18px;
     text-decoration:none;
     color:black;
     background-color:white;
