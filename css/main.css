@@ -1,8 +1,8 @@
 img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
 }
 
 .bar {
@@ -29,7 +29,7 @@ img {
 }
 
 .circle-image {
-  border-radius: 50%;
+    border-radius: 50%;
 } 
 
 .venue-txt {
@@ -74,7 +74,7 @@ iframe {
 }
 
 .center {
-   text-align:center;
+    text-align:center;
 }
 
 .container {
@@ -82,16 +82,16 @@ iframe {
 }
 
 .row {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .content {
-   max-width: 900px;
-   margin-left:auto;
-   margin-right:auto
+    max-width: 900px;
+    margin-left:auto;
+    margin-right:auto
 }
 
 footer {
